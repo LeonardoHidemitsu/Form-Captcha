@@ -1,0 +1,38 @@
+#centro {
+	text-align:center;
+}
+
+body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: lightgrey;
+}
+
+h1 {
+    color: white;
+	background-color: #1B1C22;
+	font-size: 45px;
+}
+
+h2{
+	color: #2D3E35;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size: 35px;
+}
+
+form{
+	text-align: left;
+}
+
+label{
+	color: #2C2957;
+}
+
+a:visited{
+	color: #1B1C22;
+}
+
+a:hover {
+    background-color: #A7BEB6;
+    color: black;
+}

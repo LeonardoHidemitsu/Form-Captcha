@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PROJETO ORIENTADO - Contato</title>
+    <link href="Contato.css" rel="stylesheet">
+
+</head>
+
+<body id="centro">
+
+<h1>Projeto Orientado</h1>
+
+<h2>Contato</h2>
+
+<form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post">
+
+<fieldset>
+
+<p>
+    <label for="Nome">Nome*</label><br>
+    <input type="text" name="Nome" id="Nome" size="60" maxlength="55" placeholder="Nome Completo" required>
+    <input type="submit" value="Enviar" alt= "Enviar">
+</p>
+
+<p>
+    <label for="Telefone">Telefone*</label><br>
+    <input type="tel" name="Telefone" id="Telefone" pattern="([0-9]{3} [0-9]{5}-[0-9]{4})" size="60"  placeholder="(DDD) 12345-6789" required>
+    <input type="submit" value="Enviar" alt= "Enviar">
+</p>
+
+<p>
+    <label for="Email">Email*</label><br>
+    <input type="email" name="Email" id="Email" size="60" maxlength="55" placeholder="seu@email.com" required>
+    <input type="submit" value="Enviar" alt= "Enviar">
+</p>
+
+<p>
+    <label for="Assunto">Assunto*</label><br>
+    <input type="text" name="Assunto" id="Assunto" size="60" maxlength="55" placeholder="Assunto" required>
+    <input type="submit" value="Enviar" alt= "Enviar">
+</p>
+
+<p>
+    <label for="Mensagem">Mensagem*</label><br>
+    <textarea type="text" name="Mensagem" id="Mensagem" rows="10" cols="80" placeholder="Mensagem (obrigatório)" required></textarea>
+    <input type="submit" value="Enviar" alt= "Enviar">    
+</p>
+
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
