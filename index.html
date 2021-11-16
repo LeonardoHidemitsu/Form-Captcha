@@ -1,3 +1,7 @@
+<?php
+    include_once("recaptcha.php");
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PROJETO ORIENTADO - Contato</title>
     <link href="index.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR"></script>
 
 </head>
 
@@ -45,6 +50,8 @@
 </p>
 
     <input type="submit" value="Enviar" alt= "Enviar">  
+    
+    <div class="g-recaptcha" data-sitekey="6Lc1-TgdAAAAACA4skwEqbRRF67Z9cbi1uA1e95Y"></div>
     
 </fieldset>
 
