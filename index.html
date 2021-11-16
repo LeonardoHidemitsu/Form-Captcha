@@ -56,6 +56,21 @@
 </fieldset>
 
 </form>
+    
+<?php
+    $secret = "6Lc1-TgdAAAAAJiDnahBdXYMqd53Oya41y9nHLax"
+
+    $response = null
+    $reCaptcha = new reCaptcha($secret);
+    
+    if(isset($_POST['g-recaptcha-response'])){
+        $response = $reCaptcha->verifyResponse($_SERVER['REMOTE_ADDR], $_POST['g-recaptcha-response']);
+    }
+
+    if($response != null && $response->success){
+        echo "Prosseguir";
+    }
+?>
 
 </body>
 
